@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/genInfo"
+            android:icon="@drawable/ic_gen_drawer"
+            android:title="Genral Info" />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/deviceInfo"
+            android:icon="@drawable/ic_device_drawer"
+            android:title="Device ID info" />
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/displayInfo"
+            android:icon="@drawable/ic_display_drawer"
+            android:title="Display Info" />
+    </group>
+
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/batteryInfo"
+            android:icon="@drawable/ic_battery_drawer"
+            android:title="Battery Info" />
+    </group>
+
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/userAppInfo"
+            android:icon="@drawable/ic_userapp_drawer"
+            android:title="User Apps Info" />
+    </group>
+
+    <group android:id="@+id/group6">
+        <item
+            android:id="@+id/systemAppInfo"
+            android:icon="@drawable/ic_systemapp_drawer"
+            android:title="System Apps Info" />
+    </group>
+
+    <group android:id="@+id/group7">
+        <item
+            android:id="@+id/memoryInfo"
+            android:icon="@drawable/ic_memory_drawer"
+            android:title="Memory Info" />
+    </group>
+
+    <group android:id="@+id/group8">
+        <item
+            android:id="@+id/cpuInfo"
+            android:icon="@drawable/ic_cpu_drawer"
+            android:title="CPU Info" />
+    </group>
+
+    <group android:id="@+id/group9">
+        <item
+            android:id="@+id/sensorsInfo"
+            android:icon="@drawable/ic_sensor_drawer"
+            android:title="Sensors Info" />
+    </group>
+
+    <group android:id="@+id/group10">
+        <item
+            android:id="@+id/simInfo"
+            android:icon="@drawable/ic_sim_drawer"
+            android:title="SIM Info" />
+    </group>
+
+    <group android:id="@+id/group11">
+        <item
+            android:id="@+id/exitApp"
+            android:icon="@drawable/ic_exit_drawer"
+            android:title="Exit" />
+    </group>
+
+</menu>
