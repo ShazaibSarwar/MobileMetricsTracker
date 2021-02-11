@@ -13,7 +13,9 @@ In device id Data is extracted from  these bellow classes
 •	Settings.Secure (Link)  
 
 java.lang.Object
+
    ↳	android.provider.Settings.NameValueTable
+   
       ↳	android.provider.Settings.Secure  
 
 Secure system settings, containing system preferences that applications can read
