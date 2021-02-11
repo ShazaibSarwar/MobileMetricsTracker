@@ -1,6 +1,6 @@
 # Spector
 
-##	General Information 
+## 1	General Information 
 All from Build Class which is static
 •	Build
 SDK_INT : The SDK version of the software currently running on this hardware device.
@@ -8,13 +8,14 @@ SDK_INT : The SDK version of the software currently running on this hardware dev
 
 
 
-##	Device ID
+## 2	Device ID
 In device id Data is extracted from  these bellow classes
 •	Settings.Secure (Link)  
 
 java.lang.Object
    ↳	android.provider.Settings.NameValueTable
- 	   ↳	android.provider.Settings.Secure  
+ 	   
+      ↳	android.provider.Settings.Secure  
 
 Secure system settings, containing system preferences that applications can read
 but are not allowed to write. These are for preferences that the user must explicitly
@@ -23,6 +24,7 @@ settings database, either directly or by calling the "put" methods that this cla
 •	TelephonyManager (Link) 
 
 java.lang.Object
+   
    ↳	android.telephony.TelephonyManager
    
 Provides access to information about the telephony services on the device. Applications
