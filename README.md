@@ -1,6 +1,6 @@
 # Spector
 
-1.	General Information 
+##	General Information 
 All from Build Class which is static
 •	Build
 SDK_INT : The SDK version of the software currently running on this hardware device.
