@@ -8,7 +8,7 @@ SDK_INT : The SDK version of the software currently running on this hardware dev
 
 
 
-2.	Device ID
+##	Device ID
 In device id Data is extracted from  these bellow classes
 •	Settings.Secure (Link)  
 
@@ -36,7 +36,7 @@ These classes to get some data about connection , Network IP Adress Wifi Mac Adr
 
 
 
-3.	Display Information
+## 3.	Display Information
 To get Display information I used 
 •	DisplayMetrics (Link)
 
@@ -55,7 +55,7 @@ Provides information about the size and density of a logical display.
 
 
 
-4.	Battery Information 
+## 4.	Battery Information 
 I used BatteryManager Class to get information about battery and charging states  
 •	BatteryManager (Link)
 
@@ -68,7 +68,7 @@ and provides a method for querying battery and charging properties.
 
 
 
-5.	User Application Installed in Phone
+## 5.	User Application Installed in Phone
 To get all the user Installed application I used 
 •	PackageInfo (Link)
 
@@ -87,12 +87,12 @@ Information you can retrieve about a particular application. This corresponds to
 
 
 
-6.	System Information
+## 6.	System Information
 I used the same steps as pervious (User Apps) step but with minor checks and changes.
 
 
 
-7.	Memory Information 
+## 7.	Memory Information 
 To get the memory information about ROM and RAM I used two class to get data which are
 •	ActivityManager (Link)
 
@@ -116,14 +116,14 @@ Retrieve overall information about the space on a filesystem. This is a wrapper 
 
 
 
-8.	CPU Information 
+## 8.	CPU Information 
 I’m using ProcessBuilder class to get the Processors and CPU information in this Activity
 I’m just reading information that is stored at {"/system/bin/cat"    ,    "/proc/cpuinfo"};
 
 
 
 
-9.	 Sensors Information
+## 9.	 Sensors Information
 These two classes I used to get all the available sensors which are
 •	SensorManager (Link)
 java.lang.Object
@@ -137,6 +137,6 @@ Class representing a sensor. Use SensorManager#getSensorList to get the list of 
 
 
 
-10.	SIM information 
+## 10.	SIM information 
 In this activity I used same TelephonyManger class to get SIM information 
 
